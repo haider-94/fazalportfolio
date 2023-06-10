@@ -1,4 +1,4 @@
-const user = {
+export const user = {
   about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
     reprehenderit placeat. Inventore nam placeat, eum totam eius libero
     iusto culpa vel commodi. Autem magni id nostrum unde perferendis
@@ -7,24 +7,35 @@ const user = {
 
   experience: [
     {
+      id: 1,
+      duration: '2018 - Present',
       role: "Senior Lead Engineer",
       company: "Devsinc",
       jd: "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship.",
       stacks: ["React", "React Native", "Ruby on Rols"],
     },
     {
+      id: 2,
+
+      duration: '2018 - Present',
       role: "Senior Lead Engineer",
       company: "Devsinc",
       jd: "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship.",
       stacks: ["React", "React Native", "Ruby on Rols"],
     },
     {
+      id: 3,
+
+      duration: '2018 - Present',
       role: "Senior Lead Engineer",
       company: "Devsinc",
       jd: "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship.",
       stacks: ["React", "React Native", "Ruby on Rols"],
     },
     {
+      id: 4,
+
+      duration: '2018 - Present',
       role: "Senior Lead Engineer",
       company: "Devsinc",
       jd: "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship.",
