@@ -11,13 +11,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: #fff;
   background: #222;
 }
 
-.border {
-  border: 10px solid;
-  border-image-slice: 1;
-  border-width: 5px;
-  border-image-source: linear-gradient(to right, #4ecdc4, #f7fff7);
-}
