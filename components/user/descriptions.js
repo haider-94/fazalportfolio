@@ -13,7 +13,7 @@ const PersonalInfo = ({ data, about, experience, projects }) => {
         ))}
       {projects &&
         data.projects.map((pro) => (
-          <div key={pro.id} className="grid grid-cols-[1fr] items-start">
+          <div key={pro.id} className="grid grid-cols-[1fr] ml-[120px] items-start">
             <Projects projects={pro} />
           </div>
         ))}
