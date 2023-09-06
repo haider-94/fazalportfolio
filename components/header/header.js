@@ -14,28 +14,28 @@ const Header = () => {
     <nav className="">
       <ul className="flex justify-between">
         <div className="font-extralight">
-          <h1 className="text-3xl  text-[#ccc]">{user.name}</h1>
-          <p className="text-xs">{user.title}</p>
+          <h1 className="text-6xl ml-[-0.20rem]">{user.name}</h1>
+          <p className="text-base font-extralight">{user.title}</p>
         </div>
         <div className="flex gap-5">
           <li>
             <Link href="mailto:fazalkarim.se@gmail.com">
-              <Image width={30} height={25} src={gmail} alt="" />
+              <Image width={35} height={30} src={gmail} alt="" />
             </Link>
           </li>
           <li>
             <Link href="https://github.com/fazal26">
-              <Image width={25} height={25} src={github} alt="" />
+              <Image width={35} height={30} src={github} alt="" />
             </Link>
           </li>
           <li>
             <Link href="https://www.linkedin.com/in/fazalkarim/">
-              <Image width={25} height={25} src={linkdin} alt="" />
+              <Image width={35} height={30} src={linkdin} alt="" />
             </Link>
           </li>
           <li>
             <Link href="https://stackoverflow.com/users/10195813/fazal-karim">
-              <Image width={25} height={25} src={stackoverflow} alt="" />
+              <Image width={35} height={30} src={stackoverflow} alt="" />
             </Link>
           </li>
         </div>

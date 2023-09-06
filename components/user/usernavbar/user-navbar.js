@@ -23,34 +23,34 @@ const PersonalNavbar = ({
   };
   return (
     <>
-      <ul className={`flex flex-col gap-4 text-sm leading-none font-light`}>
+      <ul className={`flex flex-col gap-4 text-[1.2rem] leading-none font-light`}>
         <li
           onClick={() => handleUserNavbar("about")}
           className={`${
-            about ? "font-semibold pointer-events-none" : "font-light"
+            about ? "font-semibold pointer-events-none" : "font-medium"
           }`}
         >
-          <span className="cursor-pointer">{about ? "." : "About"}</span>
+          <span className="cursor-pointer">{about ? "●" : "About"}</span>
         </li>
         <li
           onClick={() => handleUserNavbar("experience")}
           className={`${
-            experience ? "font-semibold pointer-events-none" : "font-light"
+            experience ? "font-semibold pointer-events-none" : "font-medium"
           }`}
         >
           {" "}
           <span className="cursor-pointer">
-            {experience ? "." : "Experience"}
+            {experience ? "●" : "Experience"}
           </span>
         </li>
         <li
           onClick={() => handleUserNavbar("projects")}
           className={`${
-            projects ? "font-semibold pointer-events-none" : "font-light"
+            projects ? "font-bold pointer-events-none" : "font-medium"
           }`}
         >
           {" "}
-          <span className="cursor-pointer">{projects ? "." : "Projects"}</span>
+          <span className="cursor-pointer">{projects ? "●" : "Projects"}</span>
         </li>
       </ul>
     </>
