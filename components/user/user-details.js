@@ -8,7 +8,7 @@ const UserDetails = () => {
   const [experience, setExperience] = useState(false);
   const [projects, setProjects] = useState(false);
   return (
-    <main className="grid grid-cols-[420px,1fr] pt-20 relative">
+    <main className="grid grid-cols-[420px,1fr] pt-20">
       <PersonalNavbar
         about={about}
         experience={experience}

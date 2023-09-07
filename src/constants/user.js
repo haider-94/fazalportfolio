@@ -10,7 +10,7 @@ export const user = {
       role: "Senior Lead Engineer",
       company: "Independent Contractor",
       jd: "Worked as a Full Stack Eng. on KLARO(a mobile app).The app was based on monitoring the atmospheric stats of a Humidor and user notification based on personal preferences. The app had shopify integrated modules and backend integrated in Ruby on Rails and NodeJs.",
-      stacks: ["React Native", " Redux", "Ruby on Rails", "Shopify", "Push Notifications", "BLE Integration"],
+      stacks: ["React Native", "Ruby on Rails", "AWS", "Node", "Redux", "Shopify", "Push Notifications", "BLE Integration"],
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ export const user = {
       role: "Senior Lead Engineer",
       company: "Nisum",
       jd: "Delivered high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship.",
-      stacks: ["JavaScript", "React", "React Native", "Typescript", "Node"],
+      stacks: ["React Native", "JavaScript", "React", "Typescript", "Node"],
     },
     {
       id: 3,

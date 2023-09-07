@@ -3,20 +3,19 @@
 @tailwind utilities;
 
 :root {
-  /* --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: 0, 0, 0;
   --background-start-rgb: rgb(255, 255, 255);
-  --background-end-rgb: linear-gradient(158deg, rgba(255, 255, 255, 1) 0%, rgba(138, 138, 138, 1) 100%); */
-  /* background: black; */
+  --background-end-rgb: linear-gradient(158deg, rgba(255, 255, 255, 1) 0%, rgba(138, 138, 138, 1) 100%);
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(255, 255, 255);
-  background: linear-gradient(158deg, rgba(255, 255, 255, 1) 0%, rgba(138, 138, 138, 1) 100%);
+  background: linear-gradient(158deg, rgb(232, 180, 180) 0%, rgb(255, 255, 255) 100%);
   width: 96vw;
-  max-height: 100vh;
   margin-left: 2vw;
   border-radius: 5px;
+  height: 100vh;
 }
 
 ::-webkit-scrollbar {

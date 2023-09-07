@@ -3,9 +3,9 @@ import Projects from "./projects/projects";
 
 const PersonalInfo = ({ data, about, experience, projects }) => {
   return (
-    <div className={`${experience || projects ? "h-1/2 overflow-y-scroll" : ""}`}>
+    <div>
       {about && (
-        <>
+        <div style={{ height: "74vh" }}>
           <p>A Software Engineering Grad.</p>
           <p>I am a Coder by choice and Problem Solver by profession.</p>
           <p>
@@ -21,20 +21,30 @@ const PersonalInfo = ({ data, about, experience, projects }) => {
             :)
           </p>
           <p>Misc Tools: Git, Gitlab, Bitbucket, Jira, Notion, Asana</p>
-        </>
+        </div>
       )}
-      {experience &&
-        data.experience.map((exp) => (
-          <div key={exp.id} className="grid grid-cols-[130px,1fr] items-start">
-            <Experience experience={exp} />
-          </div>
-        ))}
-      {projects &&
-        data.projects.map((pro) => (
-          <div key={pro.id} className="grid grid-cols-[1fr] ml-[120px] items-start">
-            <Projects projects={pro} />
-          </div>
-        ))}
+      {experience && (
+        <ul style={{ maxHeight: "74vh", "overflow-y": "scroll" }}>
+          {data.experience.map((exp) => (
+            <div key={exp.id} className="grid items-start">
+              <li>
+                <Experience experience={exp} />
+              </li>
+            </div>
+          ))}
+        </ul>
+      )}
+      {projects && (
+        <ul style={{ maxHeight: "74vh", "overflow-y": "scroll" }}>
+          {data.projects.map((pro) => (
+            <div key={pro.id} className="grid items-start">
+              <li>
+                <Projects projects={pro} />
+              </li>
+            </div>
+          ))}
+        </ul>
+      )}
     </div>
   );
 };

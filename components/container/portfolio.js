@@ -3,7 +3,7 @@ import UserDetails from "../user/user-details";
 
 const Portfolio = () => {
   return (
-    <div className="px-10 py-5 text-lg">
+    <div className="px-10 py-5">
       <Header />
       <UserDetails />
     </div>

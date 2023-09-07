@@ -11,7 +11,7 @@ const Header = () => {
     title: "Full Stack Senior Software Engineer",
   };
   return (
-    <nav className="">
+    <nav>
       <ul className="flex justify-between">
         <div className="font-extralight">
           <h1 className="text-7xl ml-[-0.20rem]">{user.name}</h1>
