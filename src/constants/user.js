@@ -1,7 +1,6 @@
 export const user = {
-  about: `I'm Fazal. A coder and problem solver.
-
-  Currently working full-time as a Senior Product Designer at Vendor Jump
+  about: `A Software Engineering Graduate, playing with apps for over 5+ years. I am a Coder by choice and Problem Solver by profession.
+  Currently serving as a Full Stack Eng. at Vendor Jump.Project Count: 22+
   `,
 
   experience: [
@@ -11,14 +10,7 @@ export const user = {
       role: "Senior Lead Engineer",
       company: "Independent Contractor",
       jd: "Worked as a Full Stack Eng. on KLARO(a mobile app).The app was based on monitoring the atmospheric stats of a Humidor and user notification based on personal preferences. The app had shopify integrated modules and backend integrated in Ruby on Rails and NodeJs.",
-      stacks: [
-        "React Native",
-        " Redux",
-        "Ruby on Rails",
-        "Shopify",
-        "Push Notifications",
-        "BLE Integration",
-      ],
+      stacks: ["React Native", " Redux", "Ruby on Rails", "Shopify", "Push Notifications", "BLE Integration"],
     },
     {
       id: 2,

@@ -8,11 +8,18 @@ const UserDetails = () => {
   const [experience, setExperience] = useState(false);
   const [projects, setProjects] = useState(false);
   return (
-    <main className="grid grid-cols-[420px,1fr] h-full items-center relative">
-        <PersonalNavbar about={about} experience={experience} projects={projects} setAbout={setAbout} setExperience={setExperience} setProjects={setProjects}/>
-        <PersonalInfo about={about} experience={experience} projects={projects} data={user} />
+    <main className="grid grid-cols-[420px,1fr] pt-20 relative">
+      <PersonalNavbar
+        about={about}
+        experience={experience}
+        projects={projects}
+        setAbout={setAbout}
+        setExperience={setExperience}
+        setProjects={setProjects}
+      />
+      <PersonalInfo about={about} experience={experience} projects={projects} data={user} />
     </main>
-  )
+  );
 };
 
 export default UserDetails;

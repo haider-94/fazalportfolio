@@ -10,10 +10,10 @@ const inter = Poppins({
 export default function Home() {
   return (
     <>
-    <Head>
-      <title>Fazal Karim</title>
-      <meta name="description" content="Fazal Karim Portfolio"/>
-    </Head>
+      <Head>
+        <title>Fazal Karim - SSE</title>
+        <meta name="description" content="Fazal Karim Portfolio" />
+      </Head>
       <main className={`${inter.className}`}>
         <Portfolio />
       </main>
