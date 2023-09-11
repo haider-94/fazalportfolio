@@ -54,40 +54,41 @@ export const user = {
   ],
   projects: [
     {
-      id: 1,
-      projectName: "In-house-app",
-      description: `In-house application for inventory management spread across multiple online ecommerce platforms.`,
-    },
-    {
       id: 2,
       projectName: "Vstora",
       description: `One stop solution for creating and managing your online business with inventory management.`,
+      link: "https://vstora.com/"
     },
     {
       id: 3,
       projectName: "KLARO",
       description: `A mobile app to monitor atmospheric stats of a humidor and broadcast notifications based on user personal preferences. It had integrations with shopify, apple store and couple of other third-party statistical apps.`,
+      link: "https://klarocigars.com/"
     },
     {
       id: 4,
       projectName: "Prologis",
       description: `A web app to manage your property, find warehouse solutions, contact support and more. It is an owner, operator, and developer of industrial real estate, focused on global markets across the Americas, Europe, and Asia.`,
+      link: "https://www.prologis.com/"
     },
     {
       id: 5,
       projectName: "Run Buddy",
       description: `A hybrid mobile application to manage workout scheduling for pets. App included features like authentication, scheduling, payment integrations, Google Places APIs integrations, chat module, camera and call integrations.`,
+      link: "http://runbuddymobile.com/"
     },
     {
       id: 6,
       projectName: "Boon – Hiring and Referral Management System",
       description: `A platform that provides organizations to put on Job vacancies for candidates to apply and refer others for the position. It had a web-based admin panel and for end users a web app along with hybrid mobile app was designed. Jobs had associated
       bounties and a complete hiring process was automated.`,
+      link: "https://goboon.co/"
     },
     {
       id: 7,
       projectName: "W9Manager – Taxation and W9 Management System",
       description: `A corporate level web system designed to manage W9s and taxation related legal procedures. Application had service- based modules for different clients including vendors imports and management, TIN import and management, services for legal procedures.`,
+      link: "https://www.w9manager.com/"
     },
     {
       id: 8,
@@ -98,6 +99,7 @@ export const user = {
       id: 9,
       projectName: "Xcite -- Interactive Games",
       description: `These were web-based apps, used to interact with animations designed on Unreal Engine. Animations were played on stadium jumbotrons, apps interacted using firebase and the game stats were saved using firestore.`,
+      link: "https://www.gcmvp.com/"
     },
   ],
 };
