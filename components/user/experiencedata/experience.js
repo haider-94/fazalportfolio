@@ -13,6 +13,7 @@ const Experience = ({ experience }) => {
               <li
                 className="bg-white lg:px-2 lg:py-2 border rounded-full cursor-pointer hover:scale-110 transition-all ease-in-out mx-2"
                 style={{ borderWidth: 2, borderColor: "black" }}
+                key={i}
               >
                 {stack}
               </li>

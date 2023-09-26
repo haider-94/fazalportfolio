@@ -17,7 +17,7 @@ const Projects = ({ projects }) => {
         <div className="flex items-center justify-evenly">
           {projects.images &&
             projects.images.map((img, i) => (
-              <Image width={200} height={100} src={img} alt="images" />
+              <Image key={i} width={200} height={100} src={img} alt="images" />
             ))}
         </div>
       </div>

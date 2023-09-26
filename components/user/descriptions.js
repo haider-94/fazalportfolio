@@ -9,7 +9,7 @@ const PersonalInfo = ({ data, about, experience, projects }) => {
           <p>A Software Engineering Grad.</p>
           <p>I am a Coder by choice and Problem Solver by profession.</p>
           <p className="mb-20">
-            I've worked with startups, mid and large scale companies and even a
+            I&apos;ve worked with startups, mid and large scale companies and even a
             Fortune 500 client. Currently serving as a Full Stack Eng at Vendor
             Jump.
           </p>
@@ -18,10 +18,6 @@ const PersonalInfo = ({ data, about, experience, projects }) => {
               <span>Experience</span>
               <span className="mb-10">Project Count</span>
               <span>Technical Stack</span>
-              <span>{"  "}</span>
-              <span>{"  "}</span>
-              <span>{"  "}</span>
-
               <span className="mt-10">Misc Tools</span>
             </div>
             <div>
@@ -32,7 +28,7 @@ const PersonalInfo = ({ data, about, experience, projects }) => {
               </p>
               <p>AWS, Node, Firebase, Material UI</p>
               <p>Jest, Angular, Typescript, Ionic</p>
-              <p>Javascript, HTML, CSS :)</p>
+              <p>Javascript, HTML, CSS</p>
             
               <p className="mt-10">Git, Gitlab, Bitbucket, Jira, Notion, Asana</p>
             </div>
