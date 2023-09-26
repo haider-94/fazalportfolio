@@ -1,16 +1,22 @@
 const Experience = ({ experience }) => {
-
   return (
     <>
-      <span className="text-sm font-thin">{experience.duration}</span>
+      <span className="text-base ">{experience.duration}</span>
       <div className="last:mb-14">
-        <h2 className="text-md font-light mb-2">
+        <h2 className="text-[1.2rem] font-medium mb-2">
           {experience.role} . {experience.company}
         </h2>
-        <p className="text-md font-thin mb-4">{experience.jd}</p>
-        <ul className="flex flex-wrap gap-10 text-sm">
+        <p className="mb-4 text-[1.1rem]">{experience.jd}</p>
+        <ul className="flex flex-wrap gap-5 text-sm">
           {experience.stacks.length > 0 &&
-            experience.stacks.map((stack, i) => <li className='cursor-pointer hover:scale-110 transition-all ease-in-out'>{stack}</li>)}
+            experience.stacks.map((stack, i) => (
+              <li
+                className="bg-white lg:px-2 lg:py-2 border rounded-full cursor-pointer hover:scale-110 transition-all ease-in-out mx-2"
+                style={{ borderWidth: 2, borderColor: "black" }}
+              >
+                {stack}
+              </li>
+            ))}
         </ul>
       </div>
     </>

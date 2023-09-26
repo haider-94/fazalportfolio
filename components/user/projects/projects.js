@@ -1,12 +1,25 @@
-const Projects = ({projects}) => {
-
+import Link from "next/link";
+import Image from "next/image";
+const Projects = ({ projects }) => {
   return (
     <>
       <div className="last:mb-14">
-        <h2 className="text-md font-light mb-2">
+        <Link
+          target="_blank"
+          href={projects.link ? projects.link : ""}
+          className={`${
+            !projects.link ? "pointer-events-none" : ""
+          } text-xl font-medium mb-2 underline-animation`}
+        >
           {projects.projectName}
-        </h2>
-        <p className="text-md font-thin mb-4">{projects.description}</p>
+        </Link>
+        <p className="text-base mb-4">{projects.description}</p>
+        <div className="flex items-center justify-evenly">
+          {projects.images &&
+            projects.images.map((img, i) => (
+              <Image width={200} height={100} src={img} alt="images" />
+            ))}
+        </div>
       </div>
     </>
   );

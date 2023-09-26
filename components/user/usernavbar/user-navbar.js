@@ -1,11 +1,4 @@
-const PersonalNavbar = ({
-  about,
-  experience,
-  projects,
-  setAbout,
-  setExperience,
-  setProjects,
-}) => {
+const PersonalNavbar = ({ about, experience, projects, setAbout, setExperience, setProjects }) => {
   const handleUserNavbar = (type) => {
     if (type === "about") {
       setAbout(true);
@@ -22,38 +15,21 @@ const PersonalNavbar = ({
     }
   };
   return (
-    <>
-      <ul className={`flex flex-col gap-4 text-sm leading-none font-light`}>
-        <li
-          onClick={() => handleUserNavbar("about")}
-          className={`${
-            about ? "font-semibold pointer-events-none" : "font-light"
-          }`}
-        >
-          <span className="cursor-pointer">{about ? "." : "About"}</span>
+    <div style={{ maxHeight: "100vh" }}>
+      <ul className={`flex flex-col gap-4 text-[1.2rem] leading-none font-light`}>
+        <li onClick={() => handleUserNavbar("about")} className={`${about ? "font-medium pointer-events-none" : "font-light"}`}>
+          <span className="cursor-pointer">{about ? "● About" : "About"}</span>
         </li>
-        <li
-          onClick={() => handleUserNavbar("experience")}
-          className={`${
-            experience ? "font-semibold pointer-events-none" : "font-light"
-          }`}
-        >
+        <li onClick={() => handleUserNavbar("experience")} className={`${experience ? "font-medium pointer-events-none" : "font-light"}`}>
           {" "}
-          <span className="cursor-pointer">
-            {experience ? "." : "Experience"}
-          </span>
+          <span className="cursor-pointer">{experience ? "● Experience" : "Experience"}</span>
         </li>
-        <li
-          onClick={() => handleUserNavbar("projects")}
-          className={`${
-            projects ? "font-semibold pointer-events-none" : "font-light"
-          }`}
-        >
+        <li onClick={() => handleUserNavbar("projects")} className={`${projects ? "font-medium pointer-events-none" : "font-light"}`}>
           {" "}
-          <span className="cursor-pointer">{projects ? "." : "Projects"}</span>
+          <span className="cursor-pointer">{projects ? "● Projects" : "Projects"}</span>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 
