@@ -18,16 +18,23 @@ const PersonalInfo = ({ data, about, experience, projects }) => {
               <span>Experience</span>
               <span className="mb-10">Project Count</span>
               <span>Technical Stack</span>
-              <span>Misc Tools</span>
+              <span>{"  "}</span>
+              <span>{"  "}</span>
+              <span>{"  "}</span>
+
+              <span className="mt-10">Misc Tools</span>
             </div>
             <div>
               <p>6+ Years</p>
-              <p className="mb-10">22+</p>
+              <p className="mb-10">25+</p>
               <p>
-                React, React Native, Ruby on Rails, NextJs, Angular, Typescript,
-                AWS, Jest, Ionic, Node, Firebase, Javascript, HTML, CSS :)
+                React, React Native, Ruby on Rails, NextJs
               </p>
-              <p>Git, Gitlab, Bitbucket, Jira, Notion, Asana</p>
+              <p>AWS, Node, Firebase, Material UI</p>
+              <p>Jest, Angular, Typescript, Ionic</p>
+              <p>Javascript, HTML, CSS :)</p>
+            
+              <p className="mt-10">Git, Gitlab, Bitbucket, Jira, Notion, Asana</p>
             </div>
           </div>
         </div>

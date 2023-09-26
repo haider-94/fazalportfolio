@@ -1,7 +1,6 @@
 import Link from "next/link";
-import { useState } from "react";
+import Image from "next/image";
 const Projects = ({ projects }) => {
-  const [link, setLink] = useState(false)
   return (
     <>
       <div className="last:mb-14">
@@ -12,9 +11,15 @@ const Projects = ({ projects }) => {
             !projects.link ? "pointer-events-none" : ""
           } text-xl font-medium mb-2 underline-animation`}
         >
-         {projects.projectName}
+          {projects.projectName}
         </Link>
         <p className="text-base mb-4">{projects.description}</p>
+        <div className="flex items-center justify-evenly">
+          {projects.images &&
+            projects.images.map((img, i) => (
+              <Image width={200} height={100} src={img} alt="images" />
+            ))}
+        </div>
       </div>
     </>
   );
