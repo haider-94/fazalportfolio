@@ -5,32 +5,31 @@ const PersonalInfo = ({ data, about, experience, projects }) => {
   return (
     <div>
       {about && (
-        <div className="lg:h-[74vh]">
+        <div className="lg:h-[74vh] text-lg">
           <p>A Software Engineering Grad.</p>
           <p>I am a Coder by choice and Problem Solver by profession.</p>
           <p className="mb-20">
-            I&apos;ve worked with startups, mid and large scale companies and even a
-            Fortune 500 client. Currently serving as a Full Stack Eng at Vendor
-            Jump.
+            I&apos;ve worked with startups, mid and large scale companies and
+            even a Fortune 500 client. Currently serving as a Full Stack Eng at
+            Vendor Jump.
           </p>
           <div className="flex gap-x-10">
             <div className="flex flex-col">
-              <span>Experience</span>
-              <span className="mb-10">Project Count</span>
+              <span className="mb-5">Experience</span>
+              <span className="mb-5">Project Count</span>
               <span>Technical Stack</span>
-              <span className="mt-10">Misc Tools</span>
+              <span className="mt-auto">Misc Tools</span>
             </div>
             <div>
-              <p>6+ Years</p>
-              <p className="mb-10">25+</p>
-              <p>
-                React, React Native, Ruby on Rails, NextJs
-              </p>
+              <p className="mb-5">6+ Years</p>
+              <p className="mb-5">25+</p>
+              <p>React, React Native, Ruby on Rails, NextJs</p>
               <p>AWS, Node, Firebase, Material UI</p>
               <p>Jest, Angular, Typescript, Ionic</p>
               <p>Javascript, HTML, CSS</p>
-            
-              <p className="mt-10">Git, Gitlab, Bitbucket, Jira, Notion, Asana</p>
+              <p className="mt-5">
+                Git, Gitlab, Bitbucket, Jira, Notion, Asana
+              </p>
             </div>
           </div>
         </div>
