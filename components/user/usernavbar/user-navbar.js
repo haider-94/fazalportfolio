@@ -16,16 +16,14 @@ const PersonalNavbar = ({ about, experience, projects, setAbout, setExperience, 
   };
   return (
     <div style={{ maxHeight: "100vh" }}>
-      <ul className={`flex flex-col gap-4 text-[1.2rem] leading-none font-light`}>
+      <ul className={`flex leading-none font-light flex-row justify-center gap-10 md:flex-col lg:gap-4 text-[1.2rem]`}>
         <li onClick={() => handleUserNavbar("about")} className={`${about ? "font-medium pointer-events-none" : "font-light"}`}>
           <span className="cursor-pointer">{about ? "● About" : "About"}</span>
         </li>
         <li onClick={() => handleUserNavbar("experience")} className={`${experience ? "font-medium pointer-events-none" : "font-light"}`}>
-          {" "}
           <span className="cursor-pointer">{experience ? "● Experience" : "Experience"}</span>
         </li>
         <li onClick={() => handleUserNavbar("projects")} className={`${projects ? "font-medium pointer-events-none" : "font-light"}`}>
-          {" "}
           <span className="cursor-pointer">{projects ? "● Projects" : "Projects"}</span>
         </li>
       </ul>
