@@ -1,4 +1,3 @@
-import particlesconfig from "@/src/config/particles-config";
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
@@ -8,9 +7,7 @@ export default function Animation() {
     await loadFull(engine);
   }, []);
 
-  const particlesLoaded = useCallback(async (container) => {
-    // await console.log(container);
-  }, []);
+  const particlesLoaded = useCallback(async (container) => {}, []);
   return (
     <div>
       <Particles

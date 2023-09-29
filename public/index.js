@@ -11,6 +11,11 @@ import runbuddy2 from "../public/runbuddy/runbuddy1.jpg";
 import vstora from "../public/vstora/logo-black.png";
 import w9manager from "../public/w9manager/image.png";
 import xcite from "../public/Xcite/xite.jpg";
+import gmail from "../public/icons8-gmail.svg";
+import github from "../public/icons8-github.svg";
+import linkedin from "../public/icons8-linkedin.svg";
+import phone from "../public/icons8-phone.gif";
+import stackoverflow from "../public/icons8-stack-overflow-48.svg";
 
 export {
   boon1,
@@ -26,4 +31,9 @@ export {
   vstora,
   w9manager,
   xcite,
+  gmail,
+  github,
+  linkedin,
+  phone,
+  stackoverflow,
 };

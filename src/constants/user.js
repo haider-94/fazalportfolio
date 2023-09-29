@@ -12,13 +12,21 @@ import {
   vstora,
   w9manager,
   xcite,
+  phone,
+  github,
+  gmail,
+  linkedin,
+  stackoverflow,
 } from "../../public";
 
 export const user = {
   about: `A Software Engineering Graduate, playing with apps for over 5+ years. I am a Coder by choice and Problem Solver by profession.
   Currently serving as a Full Stack Eng. at Vendor Jump.Project Count: 25+
   `,
-
+  personal: {
+    name: "Fazal Karim",
+    title: "Full Stack Senior Software Engineer",
+  },
   experience: [
     {
       id: 1,
@@ -132,6 +140,49 @@ export const user = {
       description: `These were web-based apps, used to interact with animations designed on Unreal Engine. Animations were played on stadium jumbotrons, apps interacted using firebase and the game stats were saved using firestore.`,
       link: "https://www.gcmvp.com/",
       images: [xcite],
+    },
+  ],
+
+  navItems: [
+    {
+      link: "tel:+923244962952",
+      alt: "phone icon",
+      icon: phone,
+    },
+    {
+      link: "mailto:fazalkarim.se@gmail.com",
+      alt: "gmail icon",
+      icon: gmail,
+    },
+    {
+      link: "https://github.com/fazal26",
+      alt: "github icon",
+      icon: github,
+    },
+    {
+      link: "https://www.linkedin.com/in/fazalkarim/",
+      alt: "linkedin icon",
+      icon: linkedin,
+    },
+    {
+      link: "https://stackoverflow.com/users/10195813/fazal-karim",
+      alt: "stackoverflow icon",
+      icon: stackoverflow,
+    },
+  ],
+
+  personalNavbar: [
+    {
+      selected: "● About",
+      notSelected: "About",
+    },
+    {
+      selected: "● Experience",
+      notSelected: "Experience",
+    },
+    {
+      selected: "● Projects",
+      notSelected: "Projects",
     },
   ],
 };
