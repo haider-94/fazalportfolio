@@ -149,11 +149,11 @@ export const user = {
     //   alt: "phone icon",
     //   icon: phone,
     // },
-    // {
-    //   link: "mailto:fazalkarim.se@gmail.com",
-    //   alt: "gmail icon",
-    //   icon: gmail,
-    // },
+    {
+      link: "mailto:samgill.se@gmail.com",
+      alt: "gmail icon",
+      icon: gmail,
+    },
     // {
     //   link: "https://github.com/fazal26",
     //   alt: "github icon",
