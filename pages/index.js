@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Fazal Karim - SSE</title>
-        <meta name="description" content="Fazal Karim Portfolio" />
+        <title>Sam GIll - SSE</title>
+        <meta name="description" content="Sam Gill Portfolio" />
       </Head>
       <main className={`${inter.className}`}>
         <Animation />

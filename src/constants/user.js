@@ -24,7 +24,7 @@ export const user = {
   Currently serving as a Full Stack Eng. at Vendor Jump.Project Count: 25+
   `,
   personal: {
-    name: "Fazal Karim",
+    name: "Sam Gill",
     title: "Full Stack Senior Software Engineer",
   },
   experience: [
@@ -144,31 +144,31 @@ export const user = {
   ],
 
   navItems: [
+    // {
+    //   link: "tel:+923244962952",
+    //   alt: "phone icon",
+    //   icon: phone,
+    // },
+    // {
+    //   link: "mailto:fazalkarim.se@gmail.com",
+    //   alt: "gmail icon",
+    //   icon: gmail,
+    // },
+    // {
+    //   link: "https://github.com/fazal26",
+    //   alt: "github icon",
+    //   icon: github,
+    // },
     {
-      link: "tel:+923244962952",
-      alt: "phone icon",
-      icon: phone,
-    },
-    {
-      link: "mailto:fazalkarim.se@gmail.com",
-      alt: "gmail icon",
-      icon: gmail,
-    },
-    {
-      link: "https://github.com/fazal26",
-      alt: "github icon",
-      icon: github,
-    },
-    {
-      link: "https://www.linkedin.com/in/fazalkarim/",
+      link: "https://www.linkedin.com/in/sammygill/",
       alt: "linkedin icon",
       icon: linkedin,
     },
-    {
-      link: "https://stackoverflow.com/users/10195813/fazal-karim",
-      alt: "stackoverflow icon",
-      icon: stackoverflow,
-    },
+    // {
+    //   link: "https://stackoverflow.com/users/10195813/fazal-karim",
+    //   alt: "stackoverflow icon",
+    //   icon: stackoverflow,
+    // },
   ],
 
   personalNavbar: [
