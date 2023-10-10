@@ -144,31 +144,31 @@ export const user = {
   ],
 
   navItems: [
-    // {
-    //   link: "tel:+923244962952",
-    //   alt: "phone icon",
-    //   icon: phone,
-    // },
+    {
+      link: "tel:+923244962952",
+      alt: "phone icon",
+      icon: phone,
+    },
     {
       link: "mailto:samgill.se@gmail.com",
       alt: "gmail icon",
       icon: gmail,
     },
-    // {
-    //   link: "https://github.com/fazal26",
-    //   alt: "github icon",
-    //   icon: github,
-    // },
+    {
+      link: "https://github.com/fazal26",
+      alt: "github icon",
+      icon: github,
+    },
     {
       link: "https://www.linkedin.com/in/sammygill/",
       alt: "linkedin icon",
       icon: linkedin,
     },
-    // {
-    //   link: "https://stackoverflow.com/users/10195813/fazal-karim",
-    //   alt: "stackoverflow icon",
-    //   icon: stackoverflow,
-    // },
+    {
+      link: "https://stackoverflow.com/users/10195813/fazal-karim",
+      alt: "stackoverflow icon",
+      icon: stackoverflow,
+    },
   ],
 
   personalNavbar: [
