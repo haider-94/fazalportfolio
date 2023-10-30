@@ -7,18 +7,13 @@ const Projects = ({ projects }) => {
         <Link
           target="_blank"
           href={projects.link ? projects.link : ""}
-          className={`${
-            !projects.link ? "pointer-events-none" : ""
-          } text-xl font-medium mb-2 underline-animation`}
+          className={`${!projects.link ? "pointer-events-none" : ""} text-xl font-medium mb-2 underline-animation`}
         >
           {projects.projectName}
         </Link>
-        <p className="text-base mb-4">{projects.description}</p>
+        <p className="text-base mb-4 text-[1rem]">{projects.description}</p>
         <div className="flex items-center justify-evenly">
-          {projects.images &&
-            projects.images.map((img, i) => (
-              <Image key={i} width={200} height={100} src={img} alt="images" />
-            ))}
+          {projects.images && projects.images.map((img, i) => <Image key={i} width={200} height={100} src={img} alt="images" />)}
         </div>
       </div>
     </>

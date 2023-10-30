@@ -20,15 +20,15 @@ export default function Animation() {
             //   value: "#000",
             // },
           },
-          fpsLimit: 120,
+          fpsLimit: 50,
           interactivity: {
             events: {
               onClick: {
-                enable: true,
+                enable: false,
                 mode: "push",
               },
               onHover: {
-                enable: true,
+                enable: false,
                 mode: "repulse",
               },
               resize: true,
@@ -61,7 +61,7 @@ export default function Animation() {
                 default: "bounce",
               },
               random: false,
-              speed: 1,
+              speed: 0.3,
               straight: false,
             },
             number: {
@@ -69,19 +69,19 @@ export default function Animation() {
                 enable: true,
                 area: 800,
               },
-              value: 80,
+              value: 50,
             },
             opacity: {
-              value: 0.5,
+              value: 0.35,
             },
             shape: {
               type: "circle",
             },
             size: {
-              value: { min: 1, max: 5 },
+              value: { min: 1, max: 2 },
             },
           },
-          detectRetina: true,
+          detectRetina: false,
         }}
       />
     </div>
